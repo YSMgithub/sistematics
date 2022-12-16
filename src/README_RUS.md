@@ -32,6 +32,8 @@
 
 Тестирование проводилось утилитой iperf3. Измеряли пропускную способность канала между ММ и удаленным сервером (далее СРВ) с пропускной способностью 100Мб. 
 
+**== UPload ==**
+
 - TCP тест upload 1 поток
 <img src="../misc/2_iperf3_tcp_p1.png" alt="signal_lvl"/>
 
@@ -46,6 +48,29 @@
 
 - UDP тест upload 16 потоков 100Мб
 <img src="../misc/6_iperf3_udp_p16.png" alt="signal_lvl"/>
+
+- UDP тест upload 40 потоков 100Мб
+<img src="../misc/7_iperf3_udp_p40.png" alt="signal_lvl"/>
+
+**== Download ==**
+
+- TCP тест Download 1 поток
+<img src="../misc/8_iperf3_tcp_p1.png" alt="signal_lvl"/>
+
+- TCP тест Download 16 потоков
+<img src="../misc/9_iperf3_tcp_p16.png" alt="signal_lvl"/>
+
+- TCP тест Download 40 потоков
+<img src="../misc/10_iperf3_tcp_p40.png" alt="signal_lvl"/>
+
+- UDP тест Download 1 поток 100Мб
+<img src="../misc/11_iperf3_udp_p1.png" alt="signal_lvl"/>
+
+- UDP тест Download 16 потоков 100Мб
+<img src="../misc/12_iperf3_udp_p16.png" alt="signal_lvl"/>
+
+- UDP тест Download 40 потоков 100Мб
+<img src="../misc/13_iperf3_udp_p40.png" alt="signal_lvl"/>
 
 ### Адресация
 
