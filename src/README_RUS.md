@@ -40,21 +40,27 @@
 **== UPload ==**
 
 - TCP тест upload 1 поток
+
 <img src="../misc/2_iperf3_tcp_p1.png" alt="signal_lvl"/>
 
 - TCP тест upload 16 потоков
+
 <img src="../misc/3_iperf3_tcp_p16.png" alt="signal_lvl"/>
 
 - TCP тест upload 40 потоков
+
 <img src="../misc/4_iperf3_tcp_p40.png" alt="signal_lvl"/>
 
 - UDP тест upload 1 поток 100Мб
+
 <img src="../misc/5_iperf3_udp_p1.png" alt="signal_lvl"/>
 
 - UDP тест upload 16 потоков 100Мб
+
 <img src="../misc/6_iperf3_udp_p16.png" alt="signal_lvl"/>
 
 - UDP тест upload 40 потоков 100Мб
+
 <img src="../misc/7_iperf3_udp_p40.png" alt="signal_lvl"/>
 
 **== Download ==**
@@ -137,6 +143,7 @@
 - Замерим скорость при подключенном наземном канале (downlink, uplink).
 
 <img src="../misc/17_iperf3_NK_MM_DL.png" alt="signal_lvl"/>
+
 <img src="../misc/18_iperf3_NK_MM_UL.png" alt="signal_lvl"/>
 
 Потеря скорости подтверждается спидтестом.
@@ -165,18 +172,31 @@
 
 Провели тестирование загрузки процессора. При одновременном запуске разного количества потоков получены следующие результаты : 
  - 128 потоков
+ 
 <img src="../misc/27_CPU_test_128P.png" alt="signal_lvl"/>
+
  - 64 потоков
+ 
 <img src="../misc/28_CPU_test_64P.png" alt="signal_lvl"/>
+
  - 32 потока
+ 
 <img src="../misc/29_CPU_test_P32.png" alt="signal_lvl"/>
+
  - 16 потоков
+ 
 <img src="../misc/30_CPU_test_16P.png" alt="signal_lvl"/>
+
  - 8 потоков
+ 
 <img src="../misc/31_CPU_test_8P.png" alt="signal_lvl"/>
+
  - 1 поток
+ 
  <img src="../misc/32_CPU_test_1P.png" alt="signal_lvl"/>
+ 
  - В простое
+ 
  <img src="../misc/33_CPU_test_SLEEP.png" alt="signal_lvl"/>
 
  **== Вывод ==**
